@@ -11,6 +11,7 @@ def main():
     V = 1
     for i in range(N +1):
         result.append(V)
+        print(result)
         V = V*2
     print(result)
     ########################################
