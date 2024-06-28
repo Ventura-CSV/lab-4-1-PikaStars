@@ -8,7 +8,11 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    V = 1
+    for i in range(N +1):
+        result.append(V)
+        V = V*2
+    print(result)
     ########################################
     # Do not delete the return statement
     ########################################
